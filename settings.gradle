@@ -1,2 +1,8 @@
-include ':app'
 rootProject.name = "NavComOozouBlog"
+
+include ':app'
+include ':feature:shoppingcart'
+include ':feature:listing'
+include ':feature:history'
+include ':feature:payment'
+include ':common:base'
