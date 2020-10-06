@@ -6,6 +6,10 @@
 
     <fragment
         android:id="@+id/historyFragment"
-        android:name="com.him.oozoublog.navcom.history.ui.history.HistoryFragment"
-        android:label="HistoryFragment" />
+        android:name="com.him.oozoublog.navcom.history.ui.HistoryFragment"
+        android:label="HistoryFragment">
+        <deepLink
+            android:id="@+id/deepLink"
+            app:uri="myapp://history" />
+    </fragment>
 </navigation>

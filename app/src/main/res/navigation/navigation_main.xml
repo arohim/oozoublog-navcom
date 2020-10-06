@@ -3,17 +3,13 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/main_navigation"
-    app:startDestination="@+id/navigation_home">
+    app:startDestination="@+id/navigation_listing">
 
 
     <include app:graph="@navigation/navigation_listing" />
 
     <include app:graph="@navigation/navigation_history" />
 
-    <fragment
-        android:id="@+id/navigation_home"
-        android:name="com.him.oozoublog.navcom.ui.home.HomeFragment"
-        android:label="@string/title_home"
-        tools:layout="@layout/fragment_home" />
+    <include app:graph="@navigation/navigation_shopping_cart" />
 
 </navigation>

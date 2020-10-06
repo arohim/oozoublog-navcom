@@ -1,4 +1,4 @@
-package com.him.oozoublog.navcom.history.ui.history
+package com.him.oozoublog.navcom.history.ui
 
 import android.os.Bundle
 import android.view.LayoutInflater

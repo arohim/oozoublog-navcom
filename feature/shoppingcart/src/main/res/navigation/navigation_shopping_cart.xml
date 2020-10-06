@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/navigation_shopping_cart"
+    app:startDestination="@id/shoppingCartFragment">
+
+    <fragment
+        android:id="@+id/shoppingCartFragment"
+        android:name="com.him.oozoublog.navcom.shoppingcart.ui.ShoppingCartFragment"
+        android:label="ShoppingCartFragment">
+        <deepLink
+            android:id="@+id/deepLink"
+            app:uri="myapp://shopping-cart" />
+    </fragment>
+</navigation>

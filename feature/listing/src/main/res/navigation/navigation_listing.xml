@@ -9,5 +9,9 @@
         android:id="@+id/listingFragment"
         android:name="com.him.oozoublog.navcom.listing.ui.listing.ListingFragment"
         android:label="fragment_listing"
-        tools:layout="@layout/fragment_listing" />
+        tools:layout="@layout/fragment_listing">
+        <deepLink
+            android:id="@+id/deepLink"
+            app:uri="myapp://listing" />
+    </fragment>
 </navigation>

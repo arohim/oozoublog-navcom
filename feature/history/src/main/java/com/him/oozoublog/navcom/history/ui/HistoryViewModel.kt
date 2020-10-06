@@ -1,4 +1,4 @@
-package com.him.oozoublog.navcom.history.ui.history
+package com.him.oozoublog.navcom.history.ui
 
 import androidx.lifecycle.LiveData
 import androidx.lifecycle.MutableLiveData
