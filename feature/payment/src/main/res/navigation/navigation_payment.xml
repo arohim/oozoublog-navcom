@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/navigation_payment"
+    app:startDestination="@id/paymentFragment">
+
+    <fragment
+        android:id="@+id/paymentFragment"
+        android:name="com.him.oozoublog.navcom.payment.ui.PaymentFragment"
+        android:label="PaymentFragment">
+        <deepLink
+            android:id="@+id/deepLink"
+            app:uri="myapp://payment" />
+    </fragment>
+</navigation>
