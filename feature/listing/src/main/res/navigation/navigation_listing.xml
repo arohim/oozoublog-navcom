@@ -10,8 +10,12 @@
         android:name="com.him.oozoublog.navcom.listing.ui.listing.ListingFragment"
         android:label="fragment_listing"
         tools:layout="@layout/fragment_listing">
+        <argument
+            android:name="searchType"
+            android:defaultValue="ALL"
+            app:argType="com.him.oozoublog.navcom.listing.ui.listing.SearchType" />
         <deepLink
             android:id="@+id/deepLink"
-            app:uri="myapp://listing" />
+            app:uri="myapp://listing?searchType={searchType}" />
     </fragment>
 </navigation>
